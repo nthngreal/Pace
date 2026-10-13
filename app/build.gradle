@@ -1,0 +1,36 @@
+plugins { id "com.android.application" }
+
+android {
+    namespace "app.pace"
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "app.pace"
+        minSdk 24
+        targetSdk 34
+        versionCode Integer.parseInt(System.getenv("VERSION_CODE") ?: "1")
+        versionName System.getenv("VERSION_NAME") ?: "0.1.0"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("release.jks")
+            storePassword "pace12"
+            keyAlias "pace"
+            keyPassword "pace12"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+

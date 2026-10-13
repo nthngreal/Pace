@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pace</string>
+
+    <string name="food">FOOD</string>
+    <string name="coffee">COFFEE</string>
+    <string name="meal">Meal</string>
+    <string name="snack">Snack</string>
+    <string name="cup">Coffee</string>
+    <string name="undo">Undo</string>
+    <string name="today">Today</string>
+    <string name="nothing">Nothing logged yet today</string>
+    <string name="planned">planned</string>
+    <string name="hint">Hold a button to pick the time. Tap an entry to change its time.</string>
+    <string name="logged">%1$s at %2$s</string>
+    <string name="deleted">Deleted</string>
+
+    <string name="eat_now">You can eat now</string>
+    <string name="eat_from">Next food from %1$s</string>
+    <string name="eat_last">Last food by %1$s</string>
+    <string name="eat_closed">No more food today</string>
+    <string name="eat_closed_sub">Under 3 h to bedtime (%1$s)</string>
+
+    <string name="coffee_now">You can have a coffee</string>
+    <string name="coffee_from">Next coffee from %1$s</string>
+    <string name="coffee_last">last by %1$s</string>
+    <string name="coffee_limit">Daily limit reached</string>
+    <string name="coffee_late">No more coffee today</string>
+    <string name="coffee_late_sub">Under 9 h to bedtime (%1$s)</string>
+    <string name="coffee_mg">≈ %1$d of 400 mg caffeine today (estimate)</string>
+    <plurals name="cups_left">
+        <item quantity="one">%1$d more cup today</item>
+        <item quantity="other">%1$d more cups today</item>
+    </plurals>
+
+    <string name="settings">Settings</string>
+    <string name="bedtime">Bedtime</string>
+    <string name="mg_per_cup">Caffeine per cup, mg</string>
+    <string name="meal_gap">Break after a meal, hours</string>
+    <string name="snack_gap">Break after a snack, hours</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="delete">Delete</string>
+    <string name="change_time">Change time</string>
+
+    <string name="about">How it counts</string>
+    <string name="about_text">Coffee
+• One cup = 2 tsp instant ≈ 110 mg caffeine. This is an estimate: one teaspoon holds roughly 30–90 mg depending on brand and how heaped it is. Change it in settings if your coffee is stronger or weaker.
+• Up to 400 mg a day is the amount the US FDA says is generally not linked to harm in healthy adults. Pregnancy, heart problems or medication can change that.
+• No research gives a minimum gap between cups. EFSA says single doses up to 200 mg are fine, so the app spreads your remaining cups evenly up to the evening cutoff instead.
+• Last coffee 9 h before bed. A 2023 meta-analysis found a cup of coffee (~107 mg) should be drunk at least 8.8 h before bedtime to avoid cutting sleep short. Caffeine half-life is about 5 h on average but ranges from 2 to 10 h between people.
+
+Food
+• Last food 3 h before bed. Gastroenterology guidelines (ACG 2022) advise not eating 2–3 h before lying down; dinner less than 3 h before bed is linked to more reflux.
+• Breaks between meals (3 h) and after a snack (2 h) are a common rule of thumb, not a medical rule. A normal meal leaves the stomach in about 3–4 h. Adjust them in settings.
+
+Sources
+FDA, Spilling the beans: https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much
+EFSA, caffeine: https://www.efsa.europa.eu/en/topics/topic/caffeine
+Gardiner et al. 2023, Sleep Medicine Reviews: https://eprints.leedsbeckett.ac.uk/id/eprint/9625/
+ACG GERD guideline 2022: https://pmc.ncbi.nlm.nih.gov/articles/PMC8754510/</string>
+</resources>

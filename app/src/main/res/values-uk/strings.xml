@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="food">ЇЖА</string>
+    <string name="coffee">КАВА</string>
+    <string name="meal">Їжа</string>
+    <string name="snack">Перекус</string>
+    <string name="cup">Кава</string>
+    <string name="undo">Скасувати</string>
+    <string name="today">Сьогодні</string>
+    <string name="nothing">Сьогодні ще нічого не записано</string>
+    <string name="planned">заплановано</string>
+    <string name="hint">Утримуй кнопку, щоб вибрати час. Тапни запис, щоб змінити його час.</string>
+    <string name="logged">%1$s о %2$s</string>
+    <string name="deleted">Видалено</string>
+
+    <string name="eat_now">Можна їсти</string>
+    <string name="eat_from">Наступна їжа з %1$s</string>
+    <string name="eat_last">Остання їжа до %1$s</string>
+    <string name="eat_closed">Сьогодні вже не їси</string>
+    <string name="eat_closed_sub">До сну менше 3 год (%1$s)</string>
+
+    <string name="coffee_now">Можна випити каву</string>
+    <string name="coffee_from">Наступна кава з %1$s</string>
+    <string name="coffee_last">остання до %1$s</string>
+    <string name="coffee_limit">Денний ліміт вичерпано</string>
+    <string name="coffee_late">Сьогодні кави вже не треба</string>
+    <string name="coffee_late_sub">До сну менше 9 год (%1$s)</string>
+    <string name="coffee_mg">≈ %1$d з 400 мг кофеїну сьогодні (оцінка)</string>
+    <plurals name="cups_left">
+        <item quantity="one">ще %1$d чашка сьогодні</item>
+        <item quantity="few">ще %1$d чашки сьогодні</item>
+        <item quantity="many">ще %1$d чашок сьогодні</item>
+        <item quantity="other">ще %1$d чашки сьогодні</item>
+    </plurals>
+
+    <string name="settings">Налаштування</string>
+    <string name="bedtime">Час сну</string>
+    <string name="mg_per_cup">Кофеїну в чашці, мг</string>
+    <string name="meal_gap">Перерва після їжі, год</string>
+    <string name="snack_gap">Перерва після перекусу, год</string>
+    <string name="save">Зберегти</string>
+    <string name="cancel">Скасувати</string>
+    <string name="close">Закрити</string>
+    <string name="delete">Видалити</string>
+    <string name="change_time">Змінити час</string>
+
+    <string name="about">Як це рахується</string>
+    <string name="about_text">Кава
+• Одна чашка = 2 ч. ложки розчинної ≈ 110 мг кофеїну. Це оцінка: в одній ложці приблизно 30–90 мг залежно від марки й того, з горою чи ні. Якщо твоя кава міцніша чи слабша, зміни число в налаштуваннях.
+• До 400 мг на день, за даними FDA (США), зазвичай не пов\'язано зі шкодою для здорових дорослих. Вагітність, проблеми з серцем чи ліки можуть це змінити.
+• Мінімальної перерви між чашками дослідження не дають. EFSA вважає безпечною разову дозу до 200 мг, тому додаток рівномірно розкладає решту чашок до вечірньої межі.
+• Остання кава за 9 год до сну. Мета-аналіз 2023 року показав, що чашку кави (~107 мг) варто пити щонайменше за 8,8 год до сну, щоб не скорочувати його. Період напіввиведення кофеїну в середньому ~5 год, але в різних людей від 2 до 10 год.
+
+Їжа
+• Остання їжа за 3 год до сну. Гастроентерологи (ACG 2022) радять не їсти за 2–3 год до того, як лягати; вечеря менш ніж за 3 год до сну пов\'язана з частішим рефлюксом.
+• Перерви між прийомами (3 год) і після перекусу (2 год) це усталене практичне правило, а не медична норма. Звичайна їжа залишає шлунок приблизно за 3–4 год. Їх можна змінити в налаштуваннях.
+
+Джерела
+FDA, Spilling the beans: https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much
+EFSA, caffeine: https://www.efsa.europa.eu/en/topics/topic/caffeine
+Gardiner et al. 2023, Sleep Medicine Reviews: https://eprints.leedsbeckett.ac.uk/id/eprint/9625/
+ACG GERD guideline 2022: https://pmc.ncbi.nlm.nih.gov/articles/PMC8754510/</string>
+</resources>

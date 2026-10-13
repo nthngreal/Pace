@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A cup with a clock hand: "when can I have the next one". -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#7BD88F"
+        android:pathData="M34,42 L70,42 L70,62 A18,18 0 0,1 52,80 A18,18 0 0,1 34,62 Z" />
+    <path android:strokeColor="#7BD88F" android:strokeWidth="5"
+        android:pathData="M70,48 A8,8 0 0,1 70,64" />
+    <path android:strokeColor="#16181D" android:strokeWidth="4" android:strokeLineCap="round"
+        android:pathData="M52,50 L52,61 L60,61" />
+    <path android:strokeColor="#7BD88F" android:strokeWidth="3" android:strokeLineCap="round"
+        android:pathData="M44,30 Q47,34 44,38 M52,28 Q55,32 52,36 M60,30 Q63,34 60,38" />
+</vector>

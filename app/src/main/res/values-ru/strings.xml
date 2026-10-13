@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="food">ЕДА</string>
+    <string name="coffee">КОФЕ</string>
+    <string name="meal">Еда</string>
+    <string name="snack">Перекус</string>
+    <string name="cup">Кофе</string>
+    <string name="undo">Отменить</string>
+    <string name="today">Сегодня</string>
+    <string name="nothing">Сегодня ещё ничего не записано</string>
+    <string name="planned">запланировано</string>
+    <string name="hint">Удерживай кнопку, чтобы выбрать время. Нажми на запись, чтобы изменить её время.</string>
+    <string name="logged">%1$s в %2$s</string>
+    <string name="deleted">Удалено</string>
+
+    <string name="eat_now">Можно есть</string>
+    <string name="eat_from">Следующая еда с %1$s</string>
+    <string name="eat_last">Последняя еда до %1$s</string>
+    <string name="eat_closed">Сегодня больше не ешь</string>
+    <string name="eat_closed_sub">До сна меньше 3 ч (%1$s)</string>
+
+    <string name="coffee_now">Можно выпить кофе</string>
+    <string name="coffee_from">Следующий кофе с %1$s</string>
+    <string name="coffee_last">последний до %1$s</string>
+    <string name="coffee_limit">Дневной лимит исчерпан</string>
+    <string name="coffee_late">Сегодня кофе уже не нужно</string>
+    <string name="coffee_late_sub">До сна меньше 9 ч (%1$s)</string>
+    <string name="coffee_mg">≈ %1$d из 400 мг кофеина сегодня (оценка)</string>
+    <plurals name="cups_left">
+        <item quantity="one">ещё %1$d чашка сегодня</item>
+        <item quantity="few">ещё %1$d чашки сегодня</item>
+        <item quantity="many">ещё %1$d чашек сегодня</item>
+        <item quantity="other">ещё %1$d чашки сегодня</item>
+    </plurals>
+
+    <string name="settings">Настройки</string>
+    <string name="bedtime">Время сна</string>
+    <string name="mg_per_cup">Кофеина в чашке, мг</string>
+    <string name="meal_gap">Перерыв после еды, ч</string>
+    <string name="snack_gap">Перерыв после перекуса, ч</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="close">Закрыть</string>
+    <string name="delete">Удалить</string>
+    <string name="change_time">Изменить время</string>
+
+    <string name="about">Как это считается</string>
+    <string name="about_text">Кофе
+• Одна чашка = 2 ч. ложки растворимого ≈ 110 мг кофеина. Это оценка: в одной ложке примерно 30–90 мг в зависимости от марки и того, с горкой или нет. Если твой кофе крепче или слабее, измени число в настройках.
+• До 400 мг в день, по данным FDA (США), обычно не связано с вредом для здоровых взрослых. Беременность, проблемы с сердцем или лекарства могут это изменить.
+• Минимального перерыва между чашками исследования не дают. EFSA считает безопасной разовую дозу до 200 мг, поэтому приложение равномерно распределяет оставшиеся чашки до вечерней границы.
+• Последний кофе за 9 ч до сна. Мета-анализ 2023 года показал, что чашку кофе (~107 мг) стоит пить минимум за 8,8 ч до сна, чтобы не сокращать его. Период полувыведения кофеина в среднем ~5 ч, но у разных людей от 2 до 10 ч.
+
+Еда
+• Последняя еда за 3 ч до сна. Гастроэнтерологи (ACG 2022) советуют не есть за 2–3 ч до того, как ложиться; ужин меньше чем за 3 ч до сна связан с более частым рефлюксом.
+• Перерывы между приёмами (3 ч) и после перекуса (2 ч) это распространённое практическое правило, а не медицинская норма. Обычная еда покидает желудок примерно за 3–4 ч. Их можно изменить в настройках.
+
+Источники
+FDA, Spilling the beans: https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much
+EFSA, caffeine: https://www.efsa.europa.eu/en/topics/topic/caffeine
+Gardiner et al. 2023, Sleep Medicine Reviews: https://eprints.leedsbeckett.ac.uk/id/eprint/9625/
+ACG GERD guideline 2022: https://pmc.ncbi.nlm.nih.gov/articles/PMC8754510/</string>
+</resources>
